@@ -1,0 +1,101 @@
+body {
+    /*background-color: rgb(11, 11, 93);*/
+    background-color: rgb(11, 11, 120);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    
+    margin: 0;
+    height: 200vh;
+   }
+   #title, p {
+    text-align: center;
+   }
+   #description {
+    margin-top: -12px;
+    font-style: italic;
+   }
+   form {
+    max-width: 700px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 5px;
+   }
+   fieldset {
+    padding: 10px;
+    /*border-bottom: 3px solid rgb(66, 23, 146);*/
+    margin: 20px 0;
+    box-shadow: 10px 10px 8px rgb(126, 126, 131);
+    background-color: rgb(0, 0, 140);
+    line-height: 30px;
+   }
+   label {
+    display: block;
+    font-size: 20px;
+    font-weight: 500;
+    
+   }
+   input {
+    margin: 5px auto;
+    padding: 3px;
+    background:rgb(0, 0, 70);
+    color: aqua;
+    border: 1px solid gray;
+    border-radius: 7px;
+   }
+   #bio {
+    display: block;
+    
+   }
+   .input-field {
+    width: 40%; 
+    height: 27px;
+    font-size: 17px;
+
+   }
+   .question {
+    color:aqua
+    font-size: 20px;
+    font-weight: 500;
+   }
+   select {
+    display: block;
+    margin: 5px 0;
+    background-color: rgb(0, 0, 70);
+    color: rgb(126, 126, 131);
+   }
+   #dropdown {
+    height: 27px;
+   }
+   #message {
+    background-color: rgb(0, 0, 70);
+    color: aqua;
+    border: 1px solid gray;
+    border-radius: 7px;
+    font-size: 17px;
+   }
+   #submit-container {
+    display: flex;
+    align-items: center;
+   }
+   #submit {
+    width: 300px;
+    max-width: 300px;
+    height: 40px;
+    margin-top: 15px;
+    background: goldenrod;
+    font-size: 20px;
+    letter-spacing: 3px;
+    text-align: center;
+    color: #ffffff;
+   }
+   #submit:hover {
+    color: white;
+    background: none;
+    border: 2px solid white;
+   }
+   field-set :last-of-type {
+    border: none;
+   }
+   

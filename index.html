@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a Survey Form Project</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+    
+  <body>
+    <h1 id="title">Order Form</h1>
+    <p id="description">Order any kind of responsive website for your business, blog, portfolio,etc.</p>
+<form id="survey-form">
+  <fieldset id="bio">
+  <label id="name-label">Name: <input type="text" class="input-field" id="name" placeholder="Enter your name" required></label>
+  <label id="email-label">Email: <input type="email" class="input-field" id="email" placeholder="Enter your Email" required></label>
+<label id="number">Age: <input type="number" min="16" max="70" class="input-field" placeholder="Age"></label>
+</fieldset>
+
+<fieldset>
+  <label class="question">What kind of Website are you looking for? 
+  <select id="dropdown" class="input-field">
+    <option>(Select Website type)</option>
+    <option>Business</option>
+    <option>Blog</option>
+    <option>Personal</option>
+    <option>Portfolio</option>
+  </select>
+  </label>
+
+  <label class="question">Have you had a website in the past?</label>
+  <label><input type="radio" class="radio" name="yes-no" value="yes"> Yes</label>
+  <label><input type="radio" class="radio" name="yes-no" value="no"> No</label>
+
+  <label class="question">Which pages should be in your website?</label>
+  <label><input type="checkbox" class="checkbox" value="home-page"> Home</label>
+  <label><input type="checkbox" class="checkbox" value="contact-page"> Contact</label>
+  <label><input type="checkbox" class="checkbox" value="services-page"> Services</label>
+  <label><input type="checkbox" class="checkbox" value="blog-page"> Blog</label>
+  <label><input type="checkbox" class="checkbox" value="portfolio-page"> Portfolio</label>
+  <label><input type="checkbox" class="checkbox" value="store-page"> Store</label>
+  <label><input type="checkbox" class="checkbox" value="about-us-page"> About Us</label>
+  <label><input type="checkbox" class="checkbox" value="privacy-policy-page"> Privacy Policy</label>
+  <label><input type="checkbox" class="checkbox" value="terms-and-conditions-page"> Terms and Conditions</label>
+
+</fieldset>
+
+<fieldset>
+  <label>Message(Optional)<br>
+  <textarea id="message" placeholder="Send me a message" rows="10" cols="69"></textarea>
+  </label>
+</fieldset>
+
+<div id="submit-container">
+<input type="submit" id="submit" value="SUBMIT">
+</div>
+</form>
+  </body>
+</html>
